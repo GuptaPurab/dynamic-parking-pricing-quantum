@@ -25,11 +25,6 @@ This project rebuilds the dynamic parking pricing system from scratch, integrati
 - **Week 8**: Performance Analysis & Quantum Advantage
 - **Week 9**: Deployment & Portfolio Documentation
 
-## 📚 Weekly Time Allocation (7-8 hours)
-- **Theory Study**: 2-3 hours
-- **Implementation**: 3-4 hours
-- **Experimentation**: 1-2 hours
-- **Documentation**: 1 hour
 
 ## 🛠️ Technology Stack
 - **Classical ML**: Scikit-learn, XGBoost, TensorFlow
@@ -45,5 +40,4 @@ This project rebuilds the dynamic parking pricing system from scratch, integrati
 - [ ] Create production-ready streaming system
 - [ ] Build comprehensive project portfolio
 
-## 🚀 Getting Started
-Start with `/docs/week1-theory.md` for theoretical foundations.
+
