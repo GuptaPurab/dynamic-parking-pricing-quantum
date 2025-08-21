@@ -1,41 +1,41 @@
-# 🗺️ Complete Learning Roadmap: Dynamic Parking Pricing with Quantum ML
+# 🗺️ Complete Learning Roadmap: Dynamic Parking Pricing with Traditional ML
 
 ## 📊 Overview Dashboard
 
 **Total Duration**: 9 weeks (63-72 hours)  
 **Weekly Commitment**: 7-8 hours  
 **Learning Approach**: Theory → Implementation → Experimentation  
-**Final Goal**: Complete quantum ML project for portfolio, career, and business understanding
+**Final Goal**: Complete traditional ML project using XGBoost, LSTM/GRU, and Q-learning for portfolio, career, and business understanding
 
 ---
 
 ## 🎯 Phase 1: Foundations (Weeks 1-3)
 
-### **Week 1: ML Theory & Quantum Computing Basics**
+### **Week 1: Traditional ML Theory & Data Understanding**
 **Focus**: Theoretical foundations and first experiments
 
 **Theory (2-3 hours):**
 - Supervised learning fundamentals (regression vs classification)
 - Feature engineering for pricing problems
 - Time series patterns in parking demand
-- Quantum computing basics (qubits, gates, superposition)
-- Quantum vs classical computing advantages
+- Gradient boosting fundamentals (XGBoost, LightGBM)
+- Tree-based models vs linear models
 
 **Implementation (3-4 hours):**
-- Environment setup (Python, Qiskit, ML libraries)
-- Synthetic parking dataset creation
+- Environment setup (Python, XGBoost, LightGBM, ML libraries)
+- Real parking dataset analysis
 - Linear regression baseline model
-- Basic quantum circuit simulation
+- Basic XGBoost implementation
 
 **Experimentation (1-2 hours):**
 - Data exploration and visualization
 - Simple ML model evaluation
-- Quantum feature encoding experiments
+- Feature importance analysis
 
 **Deliverables:**
 - ✅ Working development environment
-- ✅ First ML pricing model
-- ✅ Basic quantum circuits
+- ✅ First ML pricing model with XGBoost
+- ✅ Data preprocessing pipeline
 - ✅ Understanding of project scope
 
 ---
@@ -97,90 +97,91 @@
 
 ---
 
-## ⚛️ Phase 2: Quantum Integration (Weeks 4-6)
+## 🧠 Phase 2: Advanced Traditional ML (Weeks 4-6)
 
-### **Week 4: Quantum ML Theory & Qiskit Deep Dive**
-**Focus**: Quantum machine learning fundamentals
+### **Week 4: LSTM/GRU for Temporal Pattern Recognition**
+**Focus**: Deep learning for time series prediction
 
 **Theory (3 hours):**
-- Variational quantum algorithms (VQA)
-- Quantum feature maps and encoding
-- Parameterized quantum circuits (PQC)
-- Quantum kernels and SVMs
-- Hybrid quantum-classical optimization
+- Recurrent Neural Networks (RNN) fundamentals
+- LSTM and GRU architectures
+- Sequence-to-sequence learning
+- Time series forecasting with deep learning
+- Attention mechanisms for temporal data
 
 **Implementation (3-4 hours):**
-- Advanced Qiskit programming
-- Quantum feature map implementation
-- Variational quantum classifier (VQC)
-- Quantum circuit optimization
+- TensorFlow/PyTorch setup for time series
+- LSTM implementation for occupancy prediction
+- GRU model for demand forecasting
+- Sequence preprocessing and feature engineering
 
 **Experimentation (1-2 hours):**
-- Different quantum feature encodings
-- Quantum circuit depth analysis
-- Noise simulation effects
+- LSTM vs GRU performance comparison
+- Different sequence lengths testing
+- Hyperparameter optimization
 
 **Deliverables:**
-- ✅ Quantum feature maps for parking data
-- ✅ Working VQC implementation
-- ✅ Understanding of quantum advantage potential
-- ✅ Quantum circuit optimization techniques
+- ✅ LSTM model for occupancy forecasting
+- ✅ GRU model for demand prediction
+- ✅ Time series preprocessing pipeline
+- ✅ Temporal pattern analysis
 
 ---
 
-### **Week 5: Quantum Models Implementation**
-**Focus**: Building production-ready quantum ML models
+### **Week 5: Reinforcement Learning Q-agent Implementation**
+**Focus**: Q-learning for dynamic pricing optimization
 
 **Theory (2-3 hours):**
-- Quantum support vector machines
-- Quantum neural networks (QNN)
-- Quantum approximate optimization (QAOA)
-- Quantum advantage analysis
+- Reinforcement Learning fundamentals
+- Q-learning algorithm and Bellman equations
+- Exploration vs exploitation strategies
+- Deep Q-Networks (DQN) for continuous spaces
+- Reward function design for pricing
 
 **Implementation (4-5 hours):**
-- Quantum SVM for price prediction
-- Quantum neural network implementation
-- Hybrid quantum-classical models
-- Performance optimization
+- Q-learning agent for pricing decisions
+- Environment setup for parking pricing
+- Reward function implementation
+- Experience replay and target networks
 
 **Experimentation (1-2 hours):**
-- Quantum vs classical comparison
-- Different quantum algorithms testing
-- Scalability analysis
+- Different reward functions testing
+- Hyperparameter tuning (learning rate, epsilon)
+- Training stability analysis
 
 **Deliverables:**
-- ✅ Multiple quantum ML models
-- ✅ Quantum-classical performance comparison
-- ✅ Scalability analysis
-- ✅ Quantum advantage demonstration
+- ✅ Q-learning pricing agent
+- ✅ Custom parking environment
+- ✅ Reward optimization strategies
+- ✅ Agent performance evaluation
 
 ---
 
-### **Week 6: Hybrid Quantum-Classical Systems**
-**Focus**: Combining the best of both worlds
+### **Week 6: Hybrid Forecasting + RL Price Optimization**
+**Focus**: Combining forecasting models with reinforcement learning
 
 **Theory (2-3 hours):**
-- Hybrid algorithm design patterns
-- Classical-quantum interfaces
-- Optimization strategies
-- Error mitigation techniques
+- Hybrid ML system architectures
+- Forecasting model integration patterns
+- Multi-stage optimization strategies
+- Revenue maximization techniques
 
 **Implementation (3-4 hours):**
-- Hybrid model architecture
-- Quantum-enhanced classical models
-- Ensemble quantum-classical methods
-- Error handling and robustness
+- XGBoost/LightGBM + LSTM ensemble
+- RL agent using forecasted occupancy
+- End-to-end pricing pipeline
+- Model performance monitoring
 
 **Experimentation (1-2 hours):**
-- Hybrid model optimization
-- Robustness testing
-- Performance benchmarking
+- Hybrid model vs individual models
+- Revenue optimization testing
+- Robustness evaluation
 
 **Deliverables:**
-- ✅ Hybrid quantum-classical pricing system
-- ✅ Robust error handling
-- ✅ Performance optimization
-- ✅ Scalability demonstrations
+- ✅ Hybrid forecasting + RL system
+- ✅ Revenue optimization pipeline
+- ✅ Performance comparison analysis
+- ✅ Production-ready architecture
 
 ---
 
@@ -197,7 +198,7 @@
 
 **Implementation (4-5 hours):**
 - Pathway streaming integration
-- Real-time quantum model inference
+- Real-time ML model inference (XGBoost + LSTM + RL)
 - Online learning capabilities
 - System monitoring and logging
 
@@ -214,30 +215,30 @@
 
 ---
 
-### **Week 8: Performance Analysis & Quantum Advantage**
-**Focus**: Comprehensive evaluation and quantum advantage proof
+### **Week 8: Performance Analysis & Revenue Optimization**
+**Focus**: Comprehensive evaluation and business impact analysis
 
 **Theory (2-3 hours):**
-- Quantum advantage metrics
+- ML model performance metrics
 - Statistical significance testing
 - Performance profiling techniques
-- Benchmarking methodologies
+- A/B testing methodologies
 
 **Implementation (3-4 hours):**
 - Comprehensive benchmarking suite
 - Statistical analysis tools
-- Quantum advantage measurement
-- Performance visualization
+- Revenue optimization measurement
+- Performance visualization dashboards
 
 **Experimentation (2-3 hours):**
 - Extensive model comparison
-- Quantum advantage analysis
+- Traditional ML vs hybrid system analysis
 - Edge case testing
 - Business impact assessment
 
 **Deliverables:**
 - ✅ Comprehensive performance analysis
-- ✅ Quantum advantage proof
+- ✅ Revenue optimization proof
 - ✅ Statistical significance results
 - ✅ Business impact quantification
 
@@ -275,20 +276,20 @@
 ## 🎓 Learning Outcomes by Phase
 
 ### **Phase 1 Outcomes:**
-- Master ML fundamentals for business problems
-- Understand quantum computing basics
+- Master traditional ML fundamentals for business problems
+- Understand XGBoost/LightGBM for occupancy forecasting
 - Build professional project structure
 - Create baseline classical models
 
 ### **Phase 2 Outcomes:**
-- Implement quantum machine learning models
-- Understand quantum advantage opportunities
-- Create hybrid quantum-classical systems
-- Master quantum programming with Qiskit
+- Implement LSTM/GRU for temporal pattern recognition
+- Build Q-learning agent for dynamic pricing
+- Create hybrid forecasting + RL systems
+- Master deep learning and reinforcement learning
 
 ### **Phase 3 Outcomes:**
-- Deploy production-ready systems
-- Prove quantum advantage quantitatively
+- Deploy production-ready real-time systems with Pathway
+- Prove revenue optimization through ML
 - Create comprehensive portfolio project
 - Understand business applications deeply
 
@@ -296,15 +297,17 @@
 
 ## 🛠️ Tools & Technologies Mastered
 
-**Classical ML:**
-- Scikit-learn, XGBoost, TensorFlow
-- Pandas, NumPy for data processing
+**Traditional ML:**
+- XGBoost, LightGBM for occupancy forecasting
+- LSTM/GRU (TensorFlow/PyTorch) for temporal patterns
+- Q-learning for dynamic pricing optimization
+- Scikit-learn, Pandas, NumPy for data processing
 - Statistical analysis and validation
 
-**Quantum Computing:**
-- Qiskit framework mastery
-- Quantum algorithm implementation
-- Quantum-classical hybrid systems
+**Real-time Systems:**
+- Pathway for streaming data ingestion
+- Online learning and model updates
+- Production ML system architecture
 
 **Engineering:**
 - Python best practices
@@ -323,16 +326,16 @@
 ## 📈 Success Metrics
 
 **Technical Mastery:**
-- [ ] Implement 5+ classical ML models
-- [ ] Create 3+ quantum ML models  
-- [ ] Demonstrate quantum advantage
-- [ ] Deploy real-time system
+- [ ] Implement XGBoost/LightGBM forecasting models
+- [ ] Create LSTM/GRU temporal pattern recognition
+- [ ] Build Q-learning dynamic pricing agent
+- [ ] Deploy real-time system with Pathway streaming
 
 **Learning Goals:**
-- [ ] Master quantum computing fundamentals
+- [ ] Master traditional ML fundamentals
 - [ ] Understand business ML applications
 - [ ] Create professional portfolio project
-- [ ] Prepare for quantum ML career
+- [ ] Prepare for ML engineering career
 
 **Business Impact:**
 - [ ] Show revenue optimization potential
@@ -349,10 +352,10 @@
 3. **Run first experiments** (`notebooks/week1-experiments.ipynb`)
 4. **Track your progress** using the weekly checklists
 
-**Ready to begin your quantum machine learning journey?** 
+**Ready to begin your traditional machine learning journey?** 
 
 Start with `docs/week1-theory.md` and let the learning adventure begin! 🎉
 
 ---
 
-*This roadmap is designed to take you from beginner to quantum ML practitioner in 9 focused weeks. Each week builds upon the previous, creating a comprehensive learning experience that balances theory, implementation, and real-world applications.*
+*This roadmap is designed to take you from beginner to advanced ML practitioner in 9 focused weeks. Each week builds upon the previous, creating a comprehensive learning experience that balances theory, implementation, and real-world applications using XGBoost, LSTM/GRU, Q-learning, and Pathway streaming.*
